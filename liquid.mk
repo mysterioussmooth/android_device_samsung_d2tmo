@@ -34,11 +34,10 @@ PRODUCT_PROPERTY_OVERRIDES += ro.buildzipid=liquid.d2tmo.$(shell date +%m%d%y).$
 
 # override
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BUILD_NUMBER=T999UVALEM \
+    BUILD_NUMBER=T999UVDLJA \
     PRODUCT_NAME=d2tmo \
     TARGET_DEVICE=d2tmo \
     TARGET_BUILD_TYPE=user \
     BUILD_VERSION_TAGS=release-keys \
-    PRIVATE_BUILD_DESC="d2tmo-user 4.0.4 IMM76D T999UVALEM release-keys" \
-    BUILD_FINGERPRINT="samsung/d2tmo/d2tmo:4.0.4/IMM76D/T999UVALEM:user/release-keys"
-
+    PRIVATE_BUILD_DESC="d2tmo-user 4.1.1 JRO03L T999UVDLJA release-keys" \
+    BUILD_FINGERPRINT="samsung/d2tmo/d2tmo:4.1.1/JRO03L/T999UVDLJA:user/release-keys"
