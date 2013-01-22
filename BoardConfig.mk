@@ -13,13 +13,6 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-
-#
-# This file sets variables that control the way modules are built
-# thorughout the system. It should not be used to conditionally
-# disable makefiles (the proper mechanism to control what gets
-# included in a build is to use PRODUCT_PACKAGES in a product
-# definition file).
 #
 
 # assert
@@ -33,4 +26,3 @@ TARGET_OTA_ASSERT_DEVICE := d2tmo
 
 # kernel
 TARGET_KERNEL_CONFIG := cyanogen_d2_defconfig
-
